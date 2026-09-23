@@ -1,0 +1,11 @@
+# Local secrets — never commit real API keys/tokens
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Note: audit_log.db is intentionally NOT ignored — the workflow commits
+# it back to the repo on purpose, as the run-history/dedup store.

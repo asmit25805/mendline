@@ -1,0 +1,6 @@
+PyGithub==2.3.0
+groq==0.28.0
+google-genai>=1.0.0
+python-dotenv==1.0.1
+requests==2.32.3
+pyyaml==6.0.3
